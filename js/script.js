@@ -1,11 +1,4 @@
-window.onload=function(){
-    //let suma = 5+10;
-     //alert(suma);
-}
 
-function lanzarMensaje(){
-    //alert('Hola Mundo');
-}
 
 function mostrarVariables(){
     let variable1='texto de pruebas';
@@ -155,7 +148,7 @@ function borrarArrays2(){
    deleteProduct(element) 
     if (element.name === "eliminar") {
       element.parentElement.parentElement.remove();
-      this.showMessage("El alumno se a eliminado correctamente", "success");
+      this.showMessage("El libro se a eliminado correctamente", "success");
     }
   }
 
@@ -164,8 +157,8 @@ function borrarArrays2(){
 
 function mostrarMensaje(){
   Swal.fire({
-  icon: 'success',
-  title: 'Estudiante guardado exitosamente',
+  icon: 'Exito',
+  title: 'Libro guardado exitosamente',
   showConfirmButton: false,
   timer: 1500
 })
@@ -173,8 +166,8 @@ function mostrarMensaje(){
 
 function mostrarMensaje2(){
   Swal.fire({
-  icon: 'danger',
-  title: 'Estudiante eliminado exitosamente',
+  icon: 'Pelibro',
+  title: 'Libro eliminado exitosamente',
   showConfirmButton: true,
   timer: 1500
 })

@@ -1,5 +1,5 @@
 body{
-    background-image:url( blanco.jpg );
+    background-image:url( atras.png );
     background-size: cover;   
     background-repeat: no-repeat;
     background-position: center center;
@@ -7,7 +7,7 @@ body{
 }
 
 h1{
-    color:black;
+    color:white;
     font-family: Arial Black;
     font-size:50px;
 }
